@@ -1,4 +1,133 @@
-<!--오시는 길-->
+<!DOCTYPE html>
+
+<html lang="ko">
+
+    <head>
+        
+        <title>모바일 청첩장 실습 v3.2.1</title>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="모바일 청첩장 실습 v3.2.1">
+        <meta name="keyword" content="모바일 청첩장, 우리 결혼합니다">
+        <meta name="author" content="H-Genie">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        
+        <link rel="stylesheet" type="text/css" href="">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+        <style>
+            body {margin: 0; border: 0; padding: 0; }
+            body {font-family: 'Nanum Myeongjo'; font-size: 14px; color: black; text-align: center;}
+            p {font-size: 15px; font-weight: 400;}
+            h6 {font-size: 30px; font-weight: 800;}
+            h5 {font-family: 'Nanum Gothic'; font-size: 15px; font-weight: 400;}
+            img {width: 100%; border: 0;}
+            a {text-decoration: none; color: white;}
+            li {list-style: none;}
+            ul, ol, dl {margin: 0; padding: 0; border: 0;}
+            address {text-decoration: none;}
+
+            .sns {width: 25%; display: inline-block; margin-left: -4px;}
+            .call {display: inline-block; width: 50%; margin-left: -4px;}
+            .i15 {width: 15px;}
+            .green {color: green;}
+            .pd50 {padding-top: 50px;}
+            .w800 {font-weight: 800;}
+
+            #name {letter-spacing: 2px; padding-top: 120px;}
+            #honju {background-color: #637e52; color: white; line-height: 50px;}
+            #date {font-size: 30px; color: green; margin-top: -60px;}
+            #map {background-color: #808080; color: white; line-height: 50px; margin-top: 0;}
+            #bhands {background-color: #ececec; color: #9e9e9e; line-height: 50px; font-size: 22px; letter-spacing: 3px; margin: 0;}
+        </style>
+
+        <script>
+            function 200306 {
+                document.getElementById("map").innerHTML="Hello Javascript!";
+            }
+        </script>
+    </head>
+
+
+    <body>
+
+        <!--우리 결혼합니다-->
+        <ul style="height: 100vh;">
+            
+            <li><img src="img/main_top_bg.jpg"></li>
+            
+            <li><h6>우 리 결 혼 합 니 다</h6></li>
+            
+            <li><h5 id="date">02/22</h5></li>
+            
+            <li><p id="name">
+                <span class="green">서 형 진 * 배 수 지</span> <br><br>
+                2020. 02. 22 SAT 12:00 PM <br>
+                소풍컨베션웬딩 7층 라온제나홀
+            </p></li>
+        </ul>
+
+
+        <!--초대합니다-->
+        <ul style="background-color: #fbfbfb;">
+            
+            <li><img src="img/title_img_1.jpg" class="pd50"></li>
+            
+            <li><p class="pd50">평생을 같이하고 싶은 사람을 만났습니다. <br><br>
+                서로 아끼며 이해하고, 사랑하며 살겠습니다. <br><br>
+                저희 약속 위에 따뜻한 격려로 축복해 주시면 <br><br>
+                감사하겠습니다.</p></li>
+            
+            <li><img src="img/img1.jpg" class="pd50"></li>
+            
+            <li><p class="pd50" style="padding-bottom: 50px;">
+                신랑에게 축하인사 &nbsp;&nbsp;
+                <img class="i15" src="img/call25.png">
+                <img class="i15" src="img/call_line25.png">
+                <img class="i15" src="img/sms25.png"> <br><br>
+                신부에게 축하인사 &nbsp;&nbsp;
+                <img class="i15" src="img/call25.png">
+                <img class="i15" src="img/call_line25.png">
+                <img class="i15" src="img/sms25.png">
+            </p></li>
+        </ul>
+
+
+        <!--혼주분께 연락하기-->
+        <ul style="background-color: #eaf1e6;">
+
+            <li style="list-style: none;">
+                <p id="honju">혼주분께 연락하기</p>
+            </li>
+
+            <li class="call">
+                <p><span class="green">신랑측 혼주</span> <br><br><br>
+                아버지 유도기 <br><br>
+                <img class="i15" src="img/call25.png">
+                <img class="i15" src="img/call_line25.png">
+                <img  class="i15"src="img/sms25.png"> <br><br><br>
+                어머니 이순오 <br><br>
+                <img class="i15" src="img/call25.png">
+                <img class="i15" src="img/call_line25.png" >
+                <img class="i15" src="img/sms25.png"></p>
+            </li>
+
+            <li class="call">
+                <p><span class="green">신부측 혼주</span> <br><br><br>
+                아버지 이중호 <br><br>
+                <img class="i15" src="img/call25.png">
+                <img class="i15" src="img/call_line25.png">
+                <img class="i15" src="img/sms25.png"> <br><br><br>
+                어머니 고영심 <br><br>
+                <img class="i15" src="img/call25.png">
+                <img class="i15" src="img/call_line25.png">
+                <img class="i15" src="img/sms25.png"></p>
+            </li>
+        </ul>
+
+
+        <!--오시는 길-->
         <ul>
 
             <li><img src="img/title_img_4.jpg" class="pd50"></li>
@@ -28,3 +157,19 @@
             </h5>
 
         </ul>
+
+        <!--SNS-->
+        <ul style="background-color: #cccccc;">
+            
+            <li class="sns"><a href="http://facebook.com"><img src="img/btn_facebook.png"></a></li>
+            <li class="sns"><a href="http://twitter.com"><img src="img/btn_twitter.png"></a></li>
+            <li class="sns"><a href="https://www.kakaocorp.com/service/KakaoTalk"><img src="img/btn_kakao.png"></a></li>
+            <li class="sns"><a href="https://www.kakaocorp.com/service/KakaoStory"><img src="img/btn_story.png"></a></li>
+        
+            <li><h5 id="bhands">BHANDS CARD</h5></li>        
+        </ul>
+         
+
+    </body>
+
+</html>
