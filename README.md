@@ -1,1 +1,1 @@
-# mcard-wedding
+# mcard
